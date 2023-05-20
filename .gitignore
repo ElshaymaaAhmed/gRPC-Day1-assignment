@@ -5,3 +5,5 @@
 /ITI.gRPC.Client/bin/Debug/net6.0
 /.vs
 /ITI.gRPC.Client/obj
+/ITI.gRPC.Inventory/bin/Debug/net6.0
+/ITI.gRPC.Inventory/obj

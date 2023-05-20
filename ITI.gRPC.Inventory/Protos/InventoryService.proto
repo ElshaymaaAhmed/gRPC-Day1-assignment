@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "ITI.gRPC.Inventory.Protos";
+
+service InventoryService {
+	rpc AddNewItem(InventoryMessage) returns(InventoryResponse);
+}
+
+message InventoryMessage {
+	int32 itemID = 1;
+	int32 quantity = 2;
+}
+
+message InventoryResponse {
+	bool success = 1;
+	string message = 2;
+}

@@ -1,0 +1,13 @@
+﻿{
+  "profiles": {
+    "ITI.gRPC.Inventory": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5127;https://localhost:7106",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
