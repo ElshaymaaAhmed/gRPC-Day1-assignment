@@ -36,7 +36,7 @@ namespace ITI.gRPC.Payment.Services
                 }
                 else
                 {
-                    message = "Sorry! Not enough balance.";
+                    message = "Not enough balance.";
                 }
             }
             else

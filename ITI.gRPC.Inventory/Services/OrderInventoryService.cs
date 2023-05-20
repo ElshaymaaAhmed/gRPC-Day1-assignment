@@ -36,7 +36,7 @@ namespace ITI.gRPC.Inventory.Services
                 }
                 else
                 {
-                    message = "Sorry! There is no enough quantity in the inventory.";
+                    message = "There is no enough quantity in the inventory.";
                 }
             }
             else

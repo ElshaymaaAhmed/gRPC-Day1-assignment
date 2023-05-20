@@ -47,7 +47,7 @@ namespace ITI.gRPC.Client.Controllers
                 return Ok("Order has been created successfully!");
             }
 
-            return BadRequest($"Sorry! there is something wrong while creating the order: {inventoryResponse.Message}, {paymentResponse.Message}");
+            return BadRequest($"Sorry! there is something went wrong while creating the order: {(!inventoryResponse.Success? inventoryResponse.Message : string.Empty)}, {(!paymentResponse.Success ? paymentResponse.Message : string.Empty)}");
         }
     }
 }
