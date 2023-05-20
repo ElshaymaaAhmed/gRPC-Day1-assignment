@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "ITI.gRPC.Payment.Protos";
+
+service PaymentService {
+	rpc NewPayment(PaymentMessage) returns(PaymentResponse);
+}
+
+message PaymentMessage {
+	int32 userID = 1;
+	int32 Cost = 2;
+}
+
+message PaymentResponse {
+	bool success = 1;
+	string message = 2;
+}

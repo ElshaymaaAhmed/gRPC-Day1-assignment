@@ -7,3 +7,5 @@
 /ITI.gRPC.Client/obj
 /ITI.gRPC.Inventory/bin/Debug/net6.0
 /ITI.gRPC.Inventory/obj
+/ITI.gRPC.Payment/bin/Debug/net6.0
+/ITI.gRPC.Payment/obj
